@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="images/gio.ico"/>-->
+</head>
+<body>
+<header>
+
+</header>
+
+    <div  class="align-items-center">
+        <div class="container">
+                <div id="tab-studio" class="tab-section drag">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="text-wrapper">
+                                <h5>GraspIO</h5>
+                                <h1>Studio</h1>
+                                <p class="my-4">Drag and Drop programming mobile app to unleash the combined powers
+                                    of
+                                    Raspberry Pi and Cloudio.This simple, yet powerful mobile IDE abstracts the
+                                    complexity of development allowing you to accomplish IoT goals faster. </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="img-content">
+                                <img src=<%=require("./images/g-studio-android.png")%>
+                                srcset="<%=require("./images/g-studio-android-2x.png")%> 2x ,<%=require("./images/g-studio-android-3x.png")%> 3x" class="img-fluid" />
+                                <img src=<%=require("./images/g-studio-ios.png")%>
+                                srcset="<%=require("./images/g-studio-ios-2x.png")%> 2x ,<%=require("./images/g-studio-ios-3x.png")%> 3x" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

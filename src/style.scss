@@ -1,0 +1,71 @@
+//@import "~bootstrap/scss/bootstrap";
+//@font-face {
+//  font-family: "OpenSans";
+//  src: url('./font/OpenSans-Light.ttf') format("truetype");
+//  font-weight: 300;
+//}
+//@font-face {
+//  font-family: "OpenSans";
+//  src: url('./font/OpenSans-Bold.ttf') format("truetype");
+//  font-weight: 700;
+//}
+//@font-face {
+//  font-family: "OpenSans";
+//  src: url('./font/OpenSans-SemiBold.ttf') format("truetype");
+//  font-weight: 600;
+//}
+//@font-face {
+//  font-family: "OpenSans";
+//  src: url('./font/OpenSans-Regular.ttf') format("truetype");
+//  font-weight: 400;
+//}
+//@font-face {
+//  font-family: "OpenSans";
+//  src: url('./font/OpenSans-ExtraBold.ttf') format("truetype");
+//  font-weight: 800;
+//}
+$wireframe-color:#d8d8d8;
+$font-color:#4a4a4a;
+$font-family:'Open Sans', sans-serif;
+//$font-family: "OpenSans";
+$font-light:300;
+$font-regular:400;
+$font-semibold:600;
+$font-bold:700;
+$font-extrabold:800;
+$layout-theme:#f4821f;
+$white:#ffffff;
+$font-sub-color:#5d5d5d;
+$theme-font-size:24px;
+$feature-border-color:#9b9b9b;
+$tab-border:#979797;
+$grey:#f1f1f1;
+$graspio-color:#f4821f;
+
+
+html{
+  font-family: $font-family !important;
+}
+h1,h2,h3,h4,h5,p,a,button,input,li{
+  font-family: $font-family;
+  color:$font-color;
+}
+
+header{
+  height:50px;
+  background:#000;
+  .navbar{
+    height:80px;
+  }
+}
+//body::-webkit-scrollbar {
+//  width: 3px;
+//}
+//
+//body::-webkit-scrollbar-track {
+//  background:$grey;
+//}
+//
+//body::-webkit-scrollbar-thumb {
+//  background-color: rgba(244, 130, 31, 0.6);
+//}
